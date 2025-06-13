@@ -1,0 +1,5 @@
+This file is a bit crazy. It contains some seemingly random characters to test the output of your function:
+a a a
+and then suddenly:
+bit, bit, bit.
+Who knows what this might mean?
