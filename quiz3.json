@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Which keyword is used to handle exceptions in Python?",
+    "options": [
+      "handle",
+      "except",
+      "try",
+      "catch"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the correct way to create a dictionary?",
+    "options": [
+      "{}",
+      "[]",
+      "()",
+      "<>"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is immutable?",
+    "options": [
+      "list",
+      "dict",
+      "tuple",
+      "set"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which operator is used for exponentiation?",
+    "options": [
+      "^",
+      "**",
+      "//",
+      "^^"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does the 'pass' statement do?",
+    "options": [
+      "Skips iteration",
+      "Exits loop",
+      "Placeholder with no effect",
+      "Raises an error"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which function returns the number of items in an object?",
+    "options": [
+      "count()",
+      "length()",
+      "len()",
+      "size()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which function converts an object into a string?",
+    "options": [
+      "str()",
+      "string()",
+      "chr()",
+      "repr()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which function gets the character from an ASCII code?",
+    "options": [
+      "ord()",
+      "char()",
+      "chr()",
+      "ascii()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of: print(type([]))?",
+    "options": [
+      "<class 'list'>",
+      "<type 'list'>",
+      "list",
+      "<list>"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which loop will always execute at least once?",
+    "options": [
+      "while",
+      "for",
+      "do-while",
+      "Python has no do-while"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "What is the result of: 3 * 'ab'?",
+    "options": [
+      "'ababab'",
+      "'ab3'",
+      "'ab ab ab'",
+      "Error"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol is used for comments?",
+    "options": [
+      "//",
+      "/* */",
+      "#",
+      "--"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which function is used to get user input?",
+    "options": [
+      "scanf()",
+      "prompt()",
+      "input()",
+      "read()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does 'is' check in Python?",
+    "options": [
+      "Equality",
+      "Identity",
+      "Value",
+      "Assignment"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of: bool(0)?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "0"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword defines a generator function?",
+    "options": [
+      "yield",
+      "return",
+      "gen",
+      "output"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does the 'continue' keyword do in a loop?",
+    "options": [
+      "Exits the loop",
+      "Skips to next iteration",
+      "Restarts loop",
+      "Pauses execution"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which exception type handles division by zero?",
+    "options": [
+      "ZeroDivisionError",
+      "ArithmeticError",
+      "ValueError",
+      "OverflowError"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which operator is used for logical AND?",
+    "options": [
+      "&",
+      "and",
+      "&&",
+      "AND"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which keyword is used to define an else-if condition?",
+    "options": [
+      "elif",
+      "else if",
+      "elseif",
+      "if else"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does the 'with' statement do?",
+    "options": [
+      "Creates loop",
+      "Handles context managers",
+      "Defines a class",
+      "Raises exceptions"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of: print(2 ** 3)?",
+    "options": [
+      "6",
+      "9",
+      "8",
+      "5"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What type is returned by input() function?",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "bool"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "How do you write a comment on multiple lines?",
+    "options": [
+      "'''comment'''",
+      "# comment #",
+      "// comment //",
+      "-- comment --"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which data type is ordered and changeable?",
+    "options": [
+      "tuple",
+      "set",
+      "list",
+      "frozenset"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which statement is true about Python variables?",
+    "options": [
+      "They need explicit declaration",
+      "They are declared with 'var'",
+      "They are dynamically typed",
+      "They are statically typed"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which method converts a string to lowercase?",
+    "options": [
+      "lowercase()",
+      "tolower()",
+      "lower()",
+      "down()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of these is a valid identifier?",
+    "options": [
+      "3var",
+      "var_name",
+      "my-var",
+      "@var"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which exception occurs when trying to open a missing file?",
+    "options": [
+      "MissingFileError",
+      "OpenError",
+      "FileNotFoundError",
+      "NameError"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of: print([1,2]+[3,4])?",
+    "options": [
+      "[1, 2, 3, 4]",
+      "[4, 6]",
+      "Error",
+      "[1234]"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which method would you use to remove a key from a dictionary?",
+    "options": [
+      "remove()",
+      "delete()",
+      "pop()",
+      "discard()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of: print(9 % 2)?",
+    "options": [
+      "4.5",
+      "0",
+      "1",
+      "Error"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which function gives both index and value in a loop?",
+    "options": [
+      "enumerate()",
+      "range()",
+      "zip()",
+      "loop()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is not a valid way to create a string?",
+    "options": [
+      "'abc'",
+      "\"abc\"",
+      "abc",
+      "'''abc'''"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which function returns the smallest item in a list?",
+    "options": [
+      "smallest()",
+      "min()",
+      "least()",
+      "low()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is a Python keyword?",
+    "options": [
+      "define",
+      "fun",
+      "def",
+      "func"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of: print(None == 0)?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the file extension of a Python file?",
+    "options": [
+      ".py",
+      ".python",
+      ".pt",
+      ".p"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of: print(10 // 3)?",
+    "options": [
+      "3.333",
+      "3",
+      "4",
+      "0"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a valid set operation?",
+    "options": [
+      "union()",
+      "append()",
+      "intersection()",
+      "difference()"
+    ],
+    "answer": 1
+  }
+]

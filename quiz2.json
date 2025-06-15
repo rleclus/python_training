@@ -1,0 +1,402 @@
+[
+  {
+    "question": "Which of the following is the correct syntax to define a function that takes no parameters?",
+    "options": [
+      "def myFunction[]:",
+      "def myFunction():",
+      "function myFunction():",
+      "def myFunction:"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of these is NOT a valid Python data type?",
+    "options": [
+      "float",
+      "boolean",
+      "int",
+      "set"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method removes the last item from a list?",
+    "options": [
+      "remove()",
+      "delete()",
+      "pop()",
+      "discard()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What does the 'finally' block do in exception handling?",
+    "options": [
+      "Only runs on error",
+      "Runs if no exception",
+      "Always runs",
+      "Never runs"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the correct syntax to import the 'math' module?",
+    "options": [
+      "include math",
+      "using math",
+      "import math",
+      "require math"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of these is a valid string in Python?",
+    "options": [
+      "\"Hello\"",
+      "'Hello'",
+      "\"\"\"Hello\"\"\"",
+      "All of the above"
+    ],
+    "answer": 3
+  },
+  {
+    "question": "Which operator checks if two values are equal?",
+    "options": [
+      "=",
+      "==",
+      "!=",
+      "==="
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does the 'type()' function return?",
+    "options": [
+      "Data type of a variable",
+      "Size of a variable",
+      "Memory address",
+      "Value"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What will this print: print(4 // 3)?",
+    "options": [
+      "1",
+      "1.333",
+      "0",
+      "Error"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of: bool([])?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "0"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is NOT a valid loop in Python?",
+    "options": [
+      "for",
+      "foreach",
+      "while",
+      "nested for"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "How do you raise an exception manually?",
+    "options": [
+      "throw Exception()",
+      "raise Exception()",
+      "error Exception()",
+      "except Exception()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the index of the first element in a Python list?",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "None"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which method would you use to read all lines from a file?",
+    "options": [
+      "file.get()",
+      "file.read()",
+      "file.readlines()",
+      "file.scan()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of the following is used to declare a constant in Python?",
+    "options": [
+      "const",
+      "final",
+      "There are no true constants",
+      "define"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which character is used to escape characters in a string?",
+    "options": [
+      "/",
+      "#",
+      "\\",
+      "&"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the output of: print('1' + '2')?",
+    "options": [
+      "3",
+      "12",
+      "Error",
+      "None"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which function returns a sequence of numbers?",
+    "options": [
+      "array()",
+      "enumerate()",
+      "range()",
+      "slice()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which of these types is unordered?",
+    "options": [
+      "list",
+      "set",
+      "tuple",
+      "string"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is the output of: print(3 != 4)?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which Python keyword is used to define a class?",
+    "options": [
+      "class",
+      "type",
+      "object",
+      "define"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What does the __str__() method do?",
+    "options": [
+      "Initializes a class",
+      "Returns string representation",
+      "Deletes an object",
+      "Converts to list"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of these types is not iterable?",
+    "options": [
+      "list",
+      "tuple",
+      "int",
+      "string"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What keyword is used to start a loop in Python?",
+    "options": [
+      "loop",
+      "iterate",
+      "for",
+      "repeat"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which operator is used to concatenate strings?",
+    "options": [
+      "&",
+      "+",
+      ".",
+      ","
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which Python keyword is used to exit a loop?",
+    "options": [
+      "stop",
+      "exit",
+      "break",
+      "quit"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What will print(len({})) output?",
+    "options": [
+      "0",
+      "None",
+      "1",
+      "Error"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which built-in function returns the largest item?",
+    "options": [
+      "max()",
+      "largest()",
+      "top()",
+      "biggest()"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "How can you convert a list to a tuple?",
+    "options": [
+      "list()",
+      "set()",
+      "tuple()",
+      "dict()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the default return value of a function with no return?",
+    "options": [
+      "0",
+      "null",
+      "None",
+      "Error"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What keyword is used to define an anonymous function?",
+    "options": [
+      "def",
+      "lambda",
+      "function",
+      "inline"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What is a correct syntax for a list comprehension?",
+    "options": [
+      "[x for x in range(5)]",
+      "list(x for x in range(5))",
+      "[for x in range(5): x]",
+      "map(x, range(5))"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What symbol is used to start decorators?",
+    "options": [
+      "@",
+      "&",
+      "$",
+      "#"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "What is the output of: print('a' * 3)?",
+    "options": [
+      "aaa",
+      "Error",
+      "3a",
+      "a3"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which collection type does not allow duplicates?",
+    "options": [
+      "list",
+      "set",
+      "tuple",
+      "dict"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which function gets the ASCII code of a character?",
+    "options": [
+      "ascii()",
+      "ord()",
+      "chr()",
+      "code()"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "What does the 'global' keyword do?",
+    "options": [
+      "Defines a module",
+      "Declares a global variable",
+      "Imports everything",
+      "Creates constants"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which method adds an element at a specific index in a list?",
+    "options": [
+      "add()",
+      "append()",
+      "insert()",
+      "extend()"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "Which operator returns the remainder?",
+    "options": [
+      "/",
+      "//",
+      "%",
+      "**"
+    ],
+    "answer": 2
+  },
+  {
+    "question": "What is the correct syntax for a multi-line string?",
+    "options": [
+      "'...' ",
+      "'''...'''",
+      "<!...!>",
+      "#...#"
+    ],
+    "answer": 1
+  }
+]

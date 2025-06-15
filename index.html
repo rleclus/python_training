@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PCAP Quiz App</title>
+  <style>
+    .correct { background-color: #d4edda; }
+    .wrong { background-color: #f8d7da; }
+  </style>
+</head>
+<body>
+  <h1>PCAP Certification Practice Quiz</h1>
+  <label for="quiz-select">Choose a quiz:</label>
+  <select id="quiz-select" onchange="loadQuiz()"></select>
+
+  <div id="quiz-container"></div>
+  <button onclick="submitQuiz()">Submit</button>
+  <div id="result"></div>
+
+  <script>
+    let currentQuiz = [];
+
+    async function populateQuizList() {
+      const res = await fetch('manifest.json');
+      const quizFiles = await res.json();
+
+      const selector = document.getElementById('quiz-select');
+      selector.innerHTML = '';
+      quizFiles.forEach(file => {
+        const option = document.createElement('option');
+        option.value = file;
+        option.textContent = file.replace('.json', '').replace('quiz', 'Quiz ');
+        selector.appendChild(option);
+      });
+
+      loadQuiz(); // Load the first quiz by default
+    }
+
+    async function loadQuiz() {
+      const filename = document.getElementById("quiz-select").value;
+      const res = await fetch(filename);
+      currentQuiz = await res.json();
+
+      const container = document.getElementById("quiz-container");
+      container.innerHTML = '';
+      currentQuiz.forEach((q, index) => {
+        const qDiv = document.createElement('div');
+        qDiv.className = 'question';
+        qDiv.innerHTML = `<p><strong>Q${index + 1}:</strong> ${q.question}</p>` +
+          q.options.map((opt, i) =>
+            `<label><input type="radio" name="q${index}" value="${i}"> ${opt}</label><br>`).join('');
+        container.appendChild(qDiv);
+      });
+
+      document.getElementById("result").textContent = '';
+    }
+
+    function submitQuiz() {
+      let score = 0;
+      const container = document.getElementById("quiz-container");
+      const questions = container.querySelectorAll('.question');
+
+      currentQuiz.forEach((q, i) => {
+        const selected = document.querySelector(`input[name="q${i}"]:checked`);
+        const qDiv = questions[i];
+        if (selected) {
+          const selectedIndex = parseInt(selected.value);
+          if (selectedIndex === q.answer) {
+            score++;
+            qDiv.classList.add('correct');
+          } else {
+            qDiv.classList.add('wrong');
+            qDiv.innerHTML += `<p><strong>Correct answer:</strong> ${q.options[q.answer]}</p>`;
+          }
+        } else {
+          qDiv.classList.add('wrong');
+          qDiv.innerHTML += `<p><strong>Correct answer:</strong> ${q.options[q.answer]}</p>`;
+        }
+      });
+
+      document.getElementById("result").textContent = `You scored ${score} out of ${currentQuiz.length}`;
+    }
+
+    window.onload = populateQuizList;
+  </script>
+</body>
+</html>
